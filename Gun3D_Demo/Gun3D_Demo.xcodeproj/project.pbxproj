@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		019D4DB6269590C2004F4626 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 019D4DB5269590C2004F4626 /* AppDelegate.m */; };
-		019D4DB9269590C2004F4626 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 019D4DB8269590C2004F4626 /* SceneDelegate.m */; };
 		019D4DBC269590C2004F4626 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 019D4DBB269590C2004F4626 /* ViewController.m */; };
 		019D4DBF269590C2004F4626 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 019D4DBD269590C2004F4626 /* Main.storyboard */; };
 		019D4DC1269590C3004F4626 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 019D4DC0269590C3004F4626 /* Assets.xcassets */; };
@@ -37,8 +36,6 @@
 		019D4DB1269590C2004F4626 /* Gun3D_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gun3D_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		019D4DB4269590C2004F4626 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		019D4DB5269590C2004F4626 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		019D4DB7269590C2004F4626 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		019D4DB8269590C2004F4626 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		019D4DBA269590C2004F4626 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		019D4DBB269590C2004F4626 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		019D4DBE269590C2004F4626 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -85,8 +82,6 @@
 			children = (
 				019D4DB4269590C2004F4626 /* AppDelegate.h */,
 				019D4DB5269590C2004F4626 /* AppDelegate.m */,
-				019D4DB7269590C2004F4626 /* SceneDelegate.h */,
-				019D4DB8269590C2004F4626 /* SceneDelegate.m */,
 				019D4DBA269590C2004F4626 /* ViewController.h */,
 				019D4DBB269590C2004F4626 /* ViewController.m */,
 				019D4DBD269590C2004F4626 /* Main.storyboard */,
@@ -182,7 +177,6 @@
 				019D4DD82695A3ED004F4626 /* AppDelegateUties.m in Sources */,
 				019D4DB6269590C2004F4626 /* AppDelegate.m in Sources */,
 				019D4DC7269590C3004F4626 /* main.m in Sources */,
-				019D4DB9269590C2004F4626 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,7 +332,7 @@
 					"@executable_path/Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				PRODUCT_BUNDLE_IDENTIFIER = com.qiye.gundemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qiye.3dtest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TVOS_DEPLOYMENT_TARGET = 9.0;
@@ -363,7 +357,7 @@
 					"@executable_path/Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				PRODUCT_BUNDLE_IDENTIFIER = com.qiye.gundemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qiye.3dtest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TVOS_DEPLOYMENT_TARGET = 9.0;
